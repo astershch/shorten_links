@@ -6,7 +6,6 @@ from urllib.parse import urlparse
 from dotenv import load_dotenv
 
 
-
 def is_bitlink(token, url):
     parsed_url = urlparse(url)
     bitlink = f'{parsed_url.netloc}{parsed_url.path}'
