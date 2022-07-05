@@ -19,10 +19,10 @@ pip install -r requirements.txt
 
 Для запуска необходимо передать утилите ссылку для сокращения или битлинк для вывода суммы кликов за все время:
 ```bash
->>> main.py https://ya.ru
+python main.py https://ya.ru
 https://bit.ly/3niidgO
 
->>> main.py https://bit.ly/3niidgO
+python main.py https://bit.ly/3niidgO
 Сумма кликов по ссылке: 7
 ```
 
